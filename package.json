@@ -1,14 +1,10 @@
 {
-  "name": "nextjs-template",
+  "name": "next-ts-template",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "start": "next ./src",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "next"
   },
-  "keywords": [],
-  "author": "",
+  "author": "ExoMemphiz",
   "license": "ISC",
   "dependencies": {
     "@zeit/next-typescript": "^1.1.1",
@@ -19,6 +15,7 @@
   "devDependencies": {
     "@types/next": "^8.0.1",
     "@types/react": "^16.4.16",
+    "@types/react-autosuggest": "^9.3.7",
     "@types/react-dom": "16.0.11"
   }
 }

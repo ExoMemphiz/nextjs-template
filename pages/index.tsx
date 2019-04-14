@@ -6,7 +6,9 @@ export default class Index extends React.Component {
     render() {
         return (
             <div className="index">
-                <p>Hello from index.tsx</p>
+                <p>
+                    Hello from Index.tsx
+                </p>
                 <CustomComponent />
             </div>
         )
